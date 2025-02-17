@@ -184,9 +184,8 @@ i {
     transform: scale(1.3);
 
 }
-.right-fixed .email:hover {
+.right-fixed .email:hover a{
     
     color: #6600ff;
-    transform: scale(1.1);
-
+    font-weight: 700;
 }
