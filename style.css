@@ -77,12 +77,13 @@ nav li:hover {
 
 .introduction {
     max-width: 1020px;
-    margin: 100px auto 120px;
+    margin: 100px 160px 120px;
 }
 
 .introduction h1 {
-    font-size: 2rem;
-    line-height: 3rem;
+    
+    font-size: 2.5vw;
+    line-height: 3.5vw;
     font-weight: 700;
 
 }
@@ -103,7 +104,7 @@ span {
 
 h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5vw;
     font-weight: 600;
     padding-top: 50px;
     margin: 150px auto 60px;
