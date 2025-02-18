@@ -210,7 +210,7 @@ i {
 }
 .projects-section {
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto;
     row-gap: 40px;
 }
 .proj-container {
@@ -218,14 +218,15 @@ i {
     display: grid;
     padding: 90px 60px;
     border-radius: 10px;
-    grid-template-columns: 60% auto; 
     /* background:linear-gradient(to bottom right, rgb(64, 1, 190) , rgb(8, 0, 24)); */
     /* background-color: rgb(14, 0, 37); */
     
 }
+.proj-odd {
+    grid-template-columns: 60% auto; 
+}
 .proj-even {
     grid-template-columns: auto 60% ; 
-
 }
 
 .page-image img{
