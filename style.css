@@ -301,3 +301,12 @@ h4 {
     transform: scale(105%);
     box-shadow: 0 0  5px 5px rgb(44, 0, 106);
 }
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #6600ff;
+    font-size: .8rem;
+}
+footer a {
+    color: aqua;
+}
