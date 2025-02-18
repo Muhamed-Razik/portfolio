@@ -97,7 +97,7 @@ span {
     color: rgb(102, 0, 255);
 
 }
-#about,#skills,#projects {
+#about,#skills,#projects,#contact {
     max-width: 1020px;
     margin: 100px auto;
 }
@@ -271,7 +271,7 @@ h4 {
     width: 80%;
     margin: 0 auto;
     border-radius: 10px;
-    box-shadow: 0 0 20px 5px rgb(75, 75, 75);
+    box-shadow: 0 0 20px 5px  rgb(75, 75, 75);
 
 
 }
