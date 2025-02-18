@@ -208,21 +208,30 @@ i {
 #skills>ul .not-yet {
     color: grey;
 }
+.projects-section {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 40px;
+}
 .proj-container {
-    max-width: 950px;
+    max-width: 1020px;
     display: grid;
     padding: 90px 60px;
-    border-radius: 0px;
+    border-radius: 10px;
     grid-template-columns: 60% auto; 
     /* background:linear-gradient(to bottom right, rgb(64, 1, 190) , rgb(8, 0, 24)); */
-    background-color: rgb(14, 0, 37);
+    /* background-color: rgb(14, 0, 37); */
     
+}
+.proj-even {
+    grid-template-columns: auto 60% ; 
+
 }
 
 .page-image img{
     width: 100%;
-    box-shadow: 0 0 20px rgb(72, 0, 255);
-    border-radius: 20px;
+    /* box-shadow: 0 0 20px rgb(72, 0, 255); */
+    border-radius: 10px;
 }
 .page-description {
     display: flex;
@@ -230,10 +239,14 @@ i {
     flex-direction: column;
     text-align: right;
 }
+.description-even {
+    align-items: flex-start;
+    text-align: left;
+}
 
 .description-upper {
     
-    margin-bottom:50px;
+    margin-bottom:40px;
 }
 .page-description p{
     width: 90%;
