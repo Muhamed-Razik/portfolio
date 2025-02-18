@@ -97,7 +97,7 @@ span {
     color: rgb(102, 0, 255);
 
 }
-#about,#skills {
+#about,#skills,#projects {
     max-width: 1020px;
     margin: 100px auto;
 }
@@ -204,4 +204,27 @@ i {
 .skill-items li{
     list-style: circle;
     color: #6f00ff;
+}
+#skills>ul .not-yet {
+    color: grey;
+}
+.proj-container {
+    display: grid;
+    
+    grid-template-columns: 60% auto;
+    
+}
+/* .page-image {
+    width: 50%;
+} */
+.page-image img{
+    width: 100%;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+.page-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
 }
