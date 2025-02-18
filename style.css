@@ -97,7 +97,7 @@ span {
     color: rgb(102, 0, 255);
 
 }
-#about {
+#about,#skills {
     max-width: 1020px;
     margin: 100px auto;
 }
@@ -125,7 +125,7 @@ h2 {
     width: 50%;
 }
 
-.aboutme-content p {
+ p {
     max-width: 32rem;
     font-size: .9rem;
     line-height: 1.5rem;
