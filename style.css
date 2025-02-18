@@ -226,7 +226,7 @@ h4 {
 .proj-container {
     max-width: 1020px;
     display: grid;
-    padding: 50px 40px; 
+    padding: 70px 40px; 
 }
 .proj-odd {
     grid-template-columns: 60% auto; 
@@ -285,6 +285,8 @@ h4 {
     max-width: 600px;
     margin: auto;
     text-align: center;
+    line-height: 1.5;
+    word-spacing: 2px;
 }
 #contact button {
     font-size: 1.3rem;
@@ -298,8 +300,8 @@ h4 {
     transition: .3s;
 }
 #contact button:hover {
-    transform: scale(105%);
-    box-shadow: 0 0  5px 5px rgb(44, 0, 106);
+    transform: scale(103%);
+    box-shadow: 0 0  3px 3px rgb(44, 0, 106);
 }
 footer {
     padding: 20px;
