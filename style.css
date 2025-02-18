@@ -209,22 +209,33 @@ i {
     color: grey;
 }
 .proj-container {
+    max-width: 950px;
     display: grid;
-    
-    grid-template-columns: 60% auto;
+    padding: 90px 40px;
+    border-radius: 10px;
+    grid-template-columns: 60% auto; 
+    background:linear-gradient(to bottom right, rgb(64, 1, 190) , rgb(8, 0, 24));
     
 }
-/* .page-image {
-    width: 50%;
-} */
+
 .page-image img{
     width: 100%;
-    border: 1px transparent;
+    box-shadow: 0 0 20px rgb(102, 42, 255);
     border-radius: 20px;
 }
 .page-description {
     display: flex;
+    align-items: flex-end;
     flex-direction: column;
-    justify-content: center;
     text-align: right;
+}
+
+.description-upper {
+    
+    margin: 20px 0 50px;
+}
+.page-description p{
+    width: 90%;
+    line-height: 1.5;
+    word-spacing: 2;
 }
