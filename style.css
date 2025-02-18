@@ -278,7 +278,7 @@ h4 {
 #contact {
    
     text-align: center;
-    margin: 0 auto 100px;
+    margin-bottom: 200px;
 }
 
 #contact p {
@@ -289,13 +289,15 @@ h4 {
 #contact button {
     font-size: 1.3rem;
     padding: 10px 25px;
-    color: #000000;
+    color: #ffffff;
     margin-top: 70px;
     border-radius: 50px;
     font-weight: 600;
-    background-color: #6600ff;
+    background-color: #000000;
     border: 2px solid #6600ff;
+    transition: .3s;
 }
 #contact button:hover {
-    box-shadow: ;
+    transform: scale(105%);
+    box-shadow: 0 0  5px 5px rgb(44, 0, 106);
 }
