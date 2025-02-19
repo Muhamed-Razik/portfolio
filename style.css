@@ -276,9 +276,9 @@ h4 {
     box-shadow: 0 0 20px 5px  rgb(75, 75, 75);
 }
 #contact {
-   
+   position: relative;
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 110px;
 }
 
 #contact p {
@@ -297,12 +297,18 @@ h4 {
     font-weight: 600;
     background-color: #000000;
     border: 2px solid #6600ff;
-    transition: .3s;
+    transition: .1s;
 }
 #contact button:hover {
-    transform: scale(103%);
+    transform: scale(105%);
     box-shadow: 0 0  3px 3px rgb(44, 0, 106);
 }
+
+#contact h5 {
+    font-size: .9rem;
+    margin-top: 40px;
+}
+
 footer {
     padding: 20px;
     text-align: center;
