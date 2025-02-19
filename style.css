@@ -97,6 +97,10 @@ span {
     color: rgb(102, 0, 255);
 
 }
+.cv-download {
+   
+}
+
 #about,#skills,#projects,#contact {
     max-width: 1020px;
     margin: 100px auto;
@@ -118,6 +122,7 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
 
 
 }
@@ -165,10 +170,36 @@ h2 {
 }
 i {
     font-size: 1.2rem;
-    margin-bottom: 30px;
+    margin-bottom: 30px ;
     color: white;
     transition: .2s;
     
+}
+/* .cv {
+   
+    padding: 8px;
+    border: 2px transparent;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 40px;
+} */
+.cv-section {
+    position: fixed;
+    right: 70px;
+    bottom: 40px;
+}
+#cv {
+    font-size: 1.1rem;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid;
+    padding: 7px 10px;
+    border-radius: 50%;
+    margin: 0 0 6px;
+}
+.cv-section p{
+    font-size: 12px;
+    margin-left: 10px;
 }
 .email {
     font-size: .8rem;
@@ -202,6 +233,7 @@ i {
     justify-content: space-between;
     margin: 70px 10px 150px;
     row-gap:35px ;
+    
 }
 .skill-items li{
     list-style: circle;
