@@ -97,9 +97,6 @@ span {
     color: rgb(102, 0, 255);
 
 }
-.cv-download {
-   
-}
 
 #about,#skills,#projects,#contact {
     max-width: 1020px;
@@ -192,20 +189,15 @@ i {
     transition: .2s;
 }
 
- #cv:hover {
-    color: #ffffff;
-    background-color: #000000;
+ .right-fixed .cv-section:hover #cv{
+    color: #000000;
+    background-color: #fff;
     font-weight: 800;
     transform: scale(1.2);
     border: 2px solid #ffffff;
-    box-shadow: 0 0 4px 1px #6600ff;
+    box-shadow: 0 0 4px 2px #6600ff;
 
 }
-/* .email {
-    font-size: .8rem;
-    padding-top: 20px;
-} */
-
 #vertical {
     writing-mode: vertical-rl;
     margin: 10px 6px 0;
