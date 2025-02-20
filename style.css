@@ -149,6 +149,19 @@ h2 {
     border-radius: 20px;
 
 }
+.home-autoscroll {
+    position: sticky;
+    text-align: right;
+    bottom: 25px;
+    margin-right: 79px;
+    margin-bottom: -30px;
+}
+.home-autoscroll i {
+    padding: 9px 12px;
+    background-color: rgb(13, 13, 13);
+
+    border-radius: 50%;
+}
 .left-fixed {
     position: fixed;
     left: 3rem;
