@@ -15,7 +15,6 @@ html {
 }
 
 body {
-    width: 100%;
     background-color: black;
     color: white;
 
@@ -81,12 +80,12 @@ nav li:hover {
 }
 .introduction {
     max-width: 1020px;
-    margin: 100px 160px 120px;
+    margin: 100px 160px 160px;
 }
 .introduction h1 {
 
-    font-size: 2.5vw;
-    line-height: 3.5vw;
+    font-size: clamp(.8rem,2.5vw,3rem);
+    line-height: clamp(1rem,3.5vw,3rem);
     font-weight: 700;
 
 }
@@ -162,10 +161,10 @@ i {
 #projects,
 #contact {
     max-width: 1020px;
-    margin: 100px auto;
+    margin-inline: auto;
 }
 h2 {
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     font-weight: 600;
     padding-top: 50px;
     margin: 150px auto 60px;
@@ -178,12 +177,12 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .aboutme-content {
-    width: 50%;
+    width: max(27rem,50%);
 }
 .aboutme-content p {
-    max-width: 32rem;
     font-size: .9rem;
     line-height: 1.5rem;
     text-align: justify;
@@ -195,7 +194,7 @@ h2 {
 }
 #aboutme-image img {
     max-width: 19rem;
-    margin-left: 40px;
+    margin: 20px 0 50px 40px;
     border: 4px transparent;
     border-radius: 20px;
 }
