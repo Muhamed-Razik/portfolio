@@ -165,7 +165,7 @@ h2 {
     right: 3rem;
     top: 0;
     max-width: 100px;
-    padding: 10px;
+    padding: 20px;
     z-index: 1000;
 }
 i {
@@ -175,42 +175,42 @@ i {
     transition: .2s;
     
 }
-/* .cv {
-   
-    padding: 8px;
-    border: 2px transparent;
-    color: black;
-    background-color: #ffffff;
-    border-radius: 40px;
-} */
-.cv-section {
-    position: fixed;
-    right: 70px;
-    bottom: 40px;
+.right-fixed i {
+    margin-top: 30px;
 }
 #cv {
-    font-size: 1.1rem;
-    background-color: #ffffff;
+    position: fixed;
+    top: 281px;
+    right: 75px;
+    font-size: .7rem;
     color: #000000;
-    border: 1px solid;
-    padding: 7px 10px;
+    background-color: #6600ff;
+    border: 2px solid #6600ff;
+    font-weight: 800;
+    padding: 6px ;
     border-radius: 50%;
-    margin: 0 0 6px;
+    transition: .2s;
 }
-.cv-section p{
-    font-size: 12px;
-    margin-left: 10px;
+
+ #cv:hover {
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: 800;
+    transform: scale(1.2);
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 4px 1px #6600ff;
+
 }
-.email {
+/* .email {
     font-size: .8rem;
-    padding-bottom: 20px;
-}
+    padding-top: 20px;
+} */
 
 #vertical {
     writing-mode: vertical-rl;
     margin: 10px 6px 0;
 }
-.left-fixed i:hover {
+.left-fixed i:hover,.right-fixed i:hover {
     
     color: #6600ff;
     transform: scale(1.3);
